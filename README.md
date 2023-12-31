@@ -1,2 +1,2 @@
 # mkplaylist
-It's an HTML playlist generator! Wow!
+It's an HTML music playlist generator! Wow!
