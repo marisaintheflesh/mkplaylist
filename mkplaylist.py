@@ -1,10 +1,6 @@
 import os
-import shutil
-import sys
 import markdown2
-#import htmlmin
-from jinja2 import Environment, FileSystemLoader, select_autoescape
-import html
+from jinja2 import Environment, FileSystemLoader
 import re
 
 fol = 'C:\\BigShinyTunes\\'
