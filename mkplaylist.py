@@ -1,9 +1,15 @@
 import os
+import sys
 import markdown2
 from jinja2 import Environment, FileSystemLoader
 import re
 
-fol = 'C:\\BigShinyTunes\\'
+if len(sys.argv) > 1:
+    args = sys.argv[1:]
+    fol = ''.join(args)
+else:
+    fol = "C:\\BigShinyTunes\\"
+
 ext = ('.mp3')
 mp3s = []
 
